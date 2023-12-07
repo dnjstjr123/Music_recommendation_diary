@@ -33,7 +33,7 @@ const Diary = () => {
   const [song_4, setSong_4] = useState("");
   const [song_5, setSong_5] = useState("");
   const [fetchKey, setFetchKey] = useState(0);
-  const apiKey = "AIzaSyCu13eIMIbS5pdILaL96T83jDdRYkdo_rc";
+  const apiKey = "API키";
   let currentIframe = null;
   const stopVideo = () => {
     if (currentIframe) {
